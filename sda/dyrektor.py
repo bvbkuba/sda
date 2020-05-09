@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from PYTHON_SDA_KURS.sda_z_github.sda.obiekty import Student, Grupa, Dziennik, Temat
+from sda.obiekty import Student, Grupa, Dziennik, Temat
 
 
 class Dyrektor:
