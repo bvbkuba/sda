@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from sda.obiekty import Student, Grupa, Dziennik, Temat
+from PYTHON_SDA_KURS.sda_z_github.sda.obiekty import Student, Grupa, Dziennik, Temat
 
 
 class Dyrektor:
@@ -93,3 +93,4 @@ class Dyrektor:
     # zaimplementować pokazanie frekwencji dla kazdego studena z grupy
     def grupa_frekwencja(self, grupa_id):
         raise NotImplementedError()
+

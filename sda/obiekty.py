@@ -1,7 +1,7 @@
 import uuid
 from collections import defaultdict
 
-from sda.baza import ObiektBazy
+from PYTHON_SDA_KURS.sda_z_github.sda.baza import ObiektBazy
 
 
 class Temat(ObiektBazy):

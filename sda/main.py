@@ -1,7 +1,7 @@
 import fileinput
 
-from sda.baza import Baza
-from sda.dyrektor import Dyrektor
+from PYTHON_SDA_KURS.sda_z_github.sda.baza import Baza
+from PYTHON_SDA_KURS.sda_z_github.sda.dyrektor import Dyrektor
 
 
 # TODO uzyć modulu tabulate do wyswietlania danych
@@ -66,7 +66,11 @@ def obsluz(dyrektor, linia):
     elif komenda == 'grupa-frekwencja-student':
         grupa_id = linia[1]
         student_id = linia[2]
-        print(dyrektor.grupa_frekwencja_student(grupa_id, student_id))
+        print(dyrektor.grupa_frek
+        wencja_student(grupa_id, student_id))
+        print("Niepoprawny ")
+
+
 
 
 def run():
